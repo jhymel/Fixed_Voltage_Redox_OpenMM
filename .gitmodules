@@ -1,0 +1,3 @@
+[submodule "lib/FV_shared"]
+	path = lib/FV_shared
+	url = https://github.com/jmcdaniel43/Fixed_Voltage_OpenMM.git
