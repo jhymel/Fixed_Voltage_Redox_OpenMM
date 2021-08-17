@@ -1,0 +1,498 @@
+<ForceField>
+ <AtomTypes>
+  <Type name="golc-Au0" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au1" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au2" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au3" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au4" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au5" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au6" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au7" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au8" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au9" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au10" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au11" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au12" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au13" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au14" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au15" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au16" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au17" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au18" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au19" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au20" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au21" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au22" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au23" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au24" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au25" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au26" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au27" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au28" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au29" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au30" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au31" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au32" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au33" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au34" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au35" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au36" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au37" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au38" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au39" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au40" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au41" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au42" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au43" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au44" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au45" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au46" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au47" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au48" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au49" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au50" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au51" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au52" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au53" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au54" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au55" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au56" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au57" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au58" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au59" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au60" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au61" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au62" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au63" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au64" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au65" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au66" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au67" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au68" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au69" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au70" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au71" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au72" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au73" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au74" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au75" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au76" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au77" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au78" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au79" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au80" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au81" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au82" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au83" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au84" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au85" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au86" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au87" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au88" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au89" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au90" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au91" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au92" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au93" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au94" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au95" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au96" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au97" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au98" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au99" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au100" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au101" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au102" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au103" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au104" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au105" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au106" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au107" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au108" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au109" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au110" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au111" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au112" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au113" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au114" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au115" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au116" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au117" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au118" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au119" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-Au120" class="gAuc" element="Au" mass="0.0"/>
+  <Type name="golc-H121" class="HAuc" element="H" mass="0.0"/>
+  <Type name="golc-H122" class="HAuc" element="H" mass="0.0"/>
+ </AtomTypes>
+ <Residues>
+  <Residue name="golc">
+   <Atom name="G0" type="golc-Au0"/>
+   <Atom name="G1" type="golc-Au1"/>
+   <Atom name="G2" type="golc-Au2"/>
+   <Atom name="G3" type="golc-Au3"/>
+   <Atom name="G4" type="golc-Au4"/>
+   <Atom name="G5" type="golc-Au5"/>
+   <Atom name="G6" type="golc-Au6"/>
+   <Atom name="G7" type="golc-Au7"/>
+   <Atom name="G8" type="golc-Au8"/>
+   <Atom name="G9" type="golc-Au9"/>
+   <Atom name="G10" type="golc-Au10"/>
+   <Atom name="G11" type="golc-Au11"/>
+   <Atom name="G12" type="golc-Au12"/>
+   <Atom name="G13" type="golc-Au13"/>
+   <Atom name="G14" type="golc-Au14"/>
+   <Atom name="G15" type="golc-Au15"/>
+   <Atom name="G16" type="golc-Au16"/>
+   <Atom name="G17" type="golc-Au17"/>
+   <Atom name="G18" type="golc-Au18"/>
+   <Atom name="G19" type="golc-Au19"/>
+   <Atom name="G20" type="golc-Au20"/>
+   <Atom name="G21" type="golc-Au21"/>
+   <Atom name="G22" type="golc-Au22"/>
+   <Atom name="G23" type="golc-Au23"/>
+   <Atom name="G24" type="golc-Au24"/>
+   <Atom name="G25" type="golc-Au25"/>
+   <Atom name="G26" type="golc-Au26"/>
+   <Atom name="G27" type="golc-Au27"/>
+   <Atom name="G28" type="golc-Au28"/>
+   <Atom name="G29" type="golc-Au29"/>
+   <Atom name="G30" type="golc-Au30"/>
+   <Atom name="G31" type="golc-Au31"/>
+   <Atom name="G32" type="golc-Au32"/>
+   <Atom name="G33" type="golc-Au33"/>
+   <Atom name="G34" type="golc-Au34"/>
+   <Atom name="G35" type="golc-Au35"/>
+   <Atom name="G36" type="golc-Au36"/>
+   <Atom name="G37" type="golc-Au37"/>
+   <Atom name="G38" type="golc-Au38"/>
+   <Atom name="G39" type="golc-Au39"/>
+   <Atom name="G40" type="golc-Au40"/>
+   <Atom name="G41" type="golc-Au41"/>
+   <Atom name="G42" type="golc-Au42"/>
+   <Atom name="G43" type="golc-Au43"/>
+   <Atom name="G44" type="golc-Au44"/>
+   <Atom name="G45" type="golc-Au45"/>
+   <Atom name="G46" type="golc-Au46"/>
+   <Atom name="G47" type="golc-Au47"/>
+   <Atom name="G48" type="golc-Au48"/>
+   <Atom name="G49" type="golc-Au49"/>
+   <Atom name="G50" type="golc-Au50"/>
+   <Atom name="G51" type="golc-Au51"/>
+   <Atom name="G52" type="golc-Au52"/>
+   <Atom name="G53" type="golc-Au53"/>
+   <Atom name="G54" type="golc-Au54"/>
+   <Atom name="G55" type="golc-Au55"/>
+   <Atom name="G56" type="golc-Au56"/>
+   <Atom name="G57" type="golc-Au57"/>
+   <Atom name="G58" type="golc-Au58"/>
+   <Atom name="G59" type="golc-Au59"/>
+   <Atom name="G60" type="golc-Au60"/>
+   <Atom name="G61" type="golc-Au61"/>
+   <Atom name="G62" type="golc-Au62"/>
+   <Atom name="G63" type="golc-Au63"/>
+   <Atom name="G64" type="golc-Au64"/>
+   <Atom name="G65" type="golc-Au65"/>
+   <Atom name="G66" type="golc-Au66"/>
+   <Atom name="G67" type="golc-Au67"/>
+   <Atom name="G68" type="golc-Au68"/>
+   <Atom name="G69" type="golc-Au69"/>
+   <Atom name="G70" type="golc-Au70"/>
+   <Atom name="G71" type="golc-Au71"/>
+   <Atom name="G72" type="golc-Au72"/>
+   <Atom name="G73" type="golc-Au73"/>
+   <Atom name="G74" type="golc-Au74"/>
+   <Atom name="G75" type="golc-Au75"/>
+   <Atom name="G76" type="golc-Au76"/>
+   <Atom name="G77" type="golc-Au77"/>
+   <Atom name="G78" type="golc-Au78"/>
+   <Atom name="G79" type="golc-Au79"/>
+   <Atom name="G80" type="golc-Au80"/>
+   <Atom name="G81" type="golc-Au81"/>
+   <Atom name="G82" type="golc-Au82"/>
+   <Atom name="G83" type="golc-Au83"/>
+   <Atom name="G84" type="golc-Au84"/>
+   <Atom name="G85" type="golc-Au85"/>
+   <Atom name="G86" type="golc-Au86"/>
+   <Atom name="G87" type="golc-Au87"/>
+   <Atom name="G88" type="golc-Au88"/>
+   <Atom name="G89" type="golc-Au89"/>
+   <Atom name="G90" type="golc-Au90"/>
+   <Atom name="G91" type="golc-Au91"/>
+   <Atom name="G92" type="golc-Au92"/>
+   <Atom name="G93" type="golc-Au93"/>
+   <Atom name="G94" type="golc-Au94"/>
+   <Atom name="G95" type="golc-Au95"/>
+   <Atom name="G96" type="golc-Au96"/>
+   <Atom name="G97" type="golc-Au97"/>
+   <Atom name="G98" type="golc-Au98"/>
+   <Atom name="G99" type="golc-Au99"/>
+   <Atom name="G100" type="golc-Au100"/>
+   <Atom name="G101" type="golc-Au101"/>
+   <Atom name="G102" type="golc-Au102"/>
+   <Atom name="G103" type="golc-Au103"/>
+   <Atom name="G104" type="golc-Au104"/>
+   <Atom name="G105" type="golc-Au105"/>
+   <Atom name="G106" type="golc-Au106"/>
+   <Atom name="G107" type="golc-Au107"/>
+   <Atom name="G108" type="golc-Au108"/>
+   <Atom name="G109" type="golc-Au109"/>
+   <Atom name="G110" type="golc-Au110"/>
+   <Atom name="G111" type="golc-Au111"/>
+   <Atom name="G112" type="golc-Au112"/>
+   <Atom name="G113" type="golc-Au113"/>
+   <Atom name="G114" type="golc-Au114"/>
+   <Atom name="G115" type="golc-Au115"/>
+   <Atom name="G116" type="golc-Au116"/>
+   <Atom name="G117" type="golc-Au117"/>
+   <Atom name="G118" type="golc-Au118"/>
+   <Atom name="G119" type="golc-Au119"/>
+   <Atom name="G120" type="golc-Au120"/>
+   <Atom name="H121" type="golc-H121"/>
+   <Atom name="H122" type="golc-H122"/>
+   <Bond from="0" to="1"/>
+   <Bond from="0" to="11"/>
+   <Bond from="11" to="12"/>
+   <Bond from="11" to="22"/>
+   <Bond from="22" to="23"/>
+   <Bond from="22" to="33"/>
+   <Bond from="33" to="34"/>
+   <Bond from="33" to="44"/>
+   <Bond from="44" to="45"/>
+   <Bond from="44" to="55"/>
+   <Bond from="55" to="56"/>
+   <Bond from="55" to="66"/>
+   <Bond from="66" to="67"/>
+   <Bond from="66" to="77"/>
+   <Bond from="77" to="78"/>
+   <Bond from="77" to="88"/>
+   <Bond from="88" to="89"/>
+   <Bond from="88" to="99"/>
+   <Bond from="99" to="100"/>
+   <Bond from="99" to="110"/>
+   <Bond from="1" to="2"/>
+   <Bond from="1" to="12"/>
+   <Bond from="12" to="13"/>
+   <Bond from="12" to="23"/>
+   <Bond from="23" to="24"/>
+   <Bond from="23" to="34"/>
+   <Bond from="34" to="35"/>
+   <Bond from="34" to="45"/>
+   <Bond from="45" to="46"/>
+   <Bond from="45" to="56"/>
+   <Bond from="56" to="57"/>
+   <Bond from="56" to="67"/>
+   <Bond from="67" to="68"/>
+   <Bond from="67" to="78"/>
+   <Bond from="78" to="79"/>
+   <Bond from="78" to="89"/>
+   <Bond from="89" to="90"/>
+   <Bond from="89" to="100"/>
+   <Bond from="100" to="101"/>
+   <Bond from="100" to="111"/>
+   <Bond from="2" to="3"/>
+   <Bond from="2" to="13"/>
+   <Bond from="13" to="14"/>
+   <Bond from="13" to="24"/>
+   <Bond from="24" to="25"/>
+   <Bond from="24" to="35"/>
+   <Bond from="35" to="36"/>
+   <Bond from="35" to="46"/>
+   <Bond from="46" to="47"/>
+   <Bond from="46" to="57"/>
+   <Bond from="57" to="58"/>
+   <Bond from="57" to="68"/>
+   <Bond from="68" to="69"/>
+   <Bond from="68" to="79"/>
+   <Bond from="79" to="80"/>
+   <Bond from="79" to="90"/>
+   <Bond from="90" to="91"/>
+   <Bond from="90" to="101"/>
+   <Bond from="101" to="102"/>
+   <Bond from="101" to="112"/>
+   <Bond from="3" to="4"/>
+   <Bond from="3" to="14"/>
+   <Bond from="14" to="15"/>
+   <Bond from="14" to="25"/>
+   <Bond from="25" to="26"/>
+   <Bond from="25" to="36"/>
+   <Bond from="36" to="37"/>
+   <Bond from="36" to="47"/>
+   <Bond from="47" to="48"/>
+   <Bond from="47" to="58"/>
+   <Bond from="58" to="59"/>
+   <Bond from="58" to="69"/>
+   <Bond from="69" to="70"/>
+   <Bond from="69" to="80"/>
+   <Bond from="80" to="81"/>
+   <Bond from="80" to="91"/>
+   <Bond from="91" to="92"/>
+   <Bond from="91" to="102"/>
+   <Bond from="102" to="103"/>
+   <Bond from="102" to="113"/>
+   <Bond from="4" to="5"/>
+   <Bond from="4" to="15"/>
+   <Bond from="15" to="16"/>
+   <Bond from="15" to="26"/>
+   <Bond from="26" to="27"/>
+   <Bond from="26" to="37"/>
+   <Bond from="37" to="38"/>
+   <Bond from="37" to="48"/>
+   <Bond from="48" to="49"/>
+   <Bond from="48" to="59"/>
+   <Bond from="59" to="60"/>
+   <Bond from="59" to="70"/>
+   <Bond from="70" to="71"/>
+   <Bond from="70" to="81"/>
+   <Bond from="81" to="82"/>
+   <Bond from="81" to="92"/>
+   <Bond from="92" to="93"/>
+   <Bond from="92" to="103"/>
+   <Bond from="103" to="104"/>
+   <Bond from="103" to="114"/>
+   <Bond from="5" to="6"/>
+   <Bond from="5" to="16"/>
+   <Bond from="16" to="17"/>
+   <Bond from="16" to="27"/>
+   <Bond from="27" to="28"/>
+   <Bond from="27" to="38"/>
+   <Bond from="38" to="39"/>
+   <Bond from="38" to="49"/>
+   <Bond from="49" to="50"/>
+   <Bond from="49" to="60"/>
+   <Bond from="60" to="61"/>
+   <Bond from="60" to="71"/>
+   <Bond from="71" to="72"/>
+   <Bond from="71" to="82"/>
+   <Bond from="82" to="83"/>
+   <Bond from="82" to="93"/>
+   <Bond from="93" to="94"/>
+   <Bond from="93" to="104"/>
+   <Bond from="104" to="105"/>
+   <Bond from="104" to="115"/>
+   <Bond from="6" to="7"/>
+   <Bond from="6" to="17"/>
+   <Bond from="17" to="18"/>
+   <Bond from="17" to="28"/>
+   <Bond from="28" to="29"/>
+   <Bond from="28" to="39"/>
+   <Bond from="39" to="40"/>
+   <Bond from="39" to="50"/>
+   <Bond from="50" to="51"/>
+   <Bond from="50" to="61"/>
+   <Bond from="61" to="62"/>
+   <Bond from="61" to="72"/>
+   <Bond from="72" to="73"/>
+   <Bond from="72" to="83"/>
+   <Bond from="83" to="84"/>
+   <Bond from="83" to="94"/>
+   <Bond from="94" to="95"/>
+   <Bond from="94" to="105"/>
+   <Bond from="105" to="106"/>
+   <Bond from="105" to="116"/>
+   <Bond from="7" to="8"/>
+   <Bond from="7" to="18"/>
+   <Bond from="18" to="19"/>
+   <Bond from="18" to="29"/>
+   <Bond from="29" to="30"/>
+   <Bond from="29" to="40"/>
+   <Bond from="40" to="41"/>
+   <Bond from="40" to="51"/>
+   <Bond from="51" to="52"/>
+   <Bond from="51" to="62"/>
+   <Bond from="62" to="63"/>
+   <Bond from="62" to="73"/>
+   <Bond from="73" to="74"/>
+   <Bond from="73" to="84"/>
+   <Bond from="84" to="85"/>
+   <Bond from="84" to="95"/>
+   <Bond from="95" to="96"/>
+   <Bond from="95" to="106"/>
+   <Bond from="106" to="107"/>
+   <Bond from="106" to="117"/>
+   <Bond from="8" to="9"/>
+   <Bond from="8" to="19"/>
+   <Bond from="19" to="20"/>
+   <Bond from="19" to="30"/>
+   <Bond from="30" to="31"/>
+   <Bond from="30" to="41"/>
+   <Bond from="41" to="42"/>
+   <Bond from="41" to="52"/>
+   <Bond from="52" to="53"/>
+   <Bond from="52" to="63"/>
+   <Bond from="63" to="64"/>
+   <Bond from="63" to="74"/>
+   <Bond from="74" to="75"/>
+   <Bond from="74" to="85"/>
+   <Bond from="85" to="86"/>
+   <Bond from="85" to="96"/>
+   <Bond from="96" to="97"/>
+   <Bond from="96" to="107"/>
+   <Bond from="107" to="108"/>
+   <Bond from="107" to="118"/>
+   <Bond from="9" to="10"/>
+   <Bond from="9" to="20"/>
+   <Bond from="20" to="21"/>
+   <Bond from="20" to="31"/>
+   <Bond from="31" to="32"/>
+   <Bond from="31" to="42"/>
+   <Bond from="42" to="43"/>
+   <Bond from="42" to="53"/>
+   <Bond from="53" to="54"/>
+   <Bond from="53" to="64"/>
+   <Bond from="64" to="65"/>
+   <Bond from="64" to="75"/>
+   <Bond from="75" to="76"/>
+   <Bond from="75" to="86"/>
+   <Bond from="86" to="87"/>
+   <Bond from="86" to="97"/>
+   <Bond from="97" to="98"/>
+   <Bond from="97" to="108"/>
+   <Bond from="108" to="109"/>
+   <Bond from="108" to="119"/>
+   <Bond from="110" to="111"/>
+   <Bond from="111" to="112"/>
+   <Bond from="112" to="113"/>
+   <Bond from="113" to="114"/>
+   <Bond from="114" to="115"/>
+   <Bond from="115" to="116"/>
+   <Bond from="116" to="117"/>
+   <Bond from="117" to="118"/>
+   <Bond from="118" to="119"/>
+   <Bond from="119" to="120"/>
+   <Bond from="0" to="10"/>
+   <Bond from="11" to="21"/>
+   <Bond from="22" to="32"/>
+   <Bond from="33" to="43"/>
+   <Bond from="44" to="54"/>
+   <Bond from="55" to="65"/>
+   <Bond from="66" to="76"/>
+   <Bond from="77" to="87"/>
+   <Bond from="88" to="98"/>
+   <Bond from="99" to="109"/>
+   <Bond from="110" to="120"/>
+   <Bond from="0" to="110"/>
+   <Bond from="1" to="111"/>
+   <Bond from="2" to="112"/>
+   <Bond from="3" to="113"/>
+   <Bond from="4" to="114"/>
+   <Bond from="5" to="115"/>
+   <Bond from="6" to="116"/>
+   <Bond from="7" to="117"/>
+   <Bond from="8" to="118"/>
+   <Bond from="9" to="119"/>
+   <Bond from="10" to="120"/>
+   <Bond from="10" to="21"/>
+   <Bond from="21" to="32"/>
+   <Bond from="32" to="43"/>
+   <Bond from="43" to="54"/>
+   <Bond from="54" to="65"/>
+   <Bond from="65" to="76"/>
+   <Bond from="76" to="87"/>
+   <Bond from="87" to="98"/>
+   <Bond from="98" to="109"/>
+   <Bond from="109" to="120"/>
+   <Bond from="120" to="121"/>
+   <Bond from="119" to="122"/>
+  </Residue>
+ </Residues>
+</ForceField>

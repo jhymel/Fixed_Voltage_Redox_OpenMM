@@ -1,0 +1,19 @@
+tolerance  2.0
+output    electrolyte.pdb
+
+structure  tip3p.pdb
+  number 2000
+  inside box 2.  2.  25.  29. 29. 88.
+end structure
+
+structure  Na.pdb
+  number 100
+  inside box 2.  2.  25.  29. 29. 88.
+end structure
+
+
+structure  Cl.pdb
+  number 100
+  inside box 2.  2.  25.  29. 29. 88.
+end structure
+
