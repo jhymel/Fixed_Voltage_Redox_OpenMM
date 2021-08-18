@@ -56,12 +56,12 @@ def combiner(topology_atoms, forcefield_templates, neutral_xml_file, oxidized_xm
             atom.append(float(neutral_class_charge_dict[name_type_dict[atom[0]]]))
         except:
             pass
-            print ('Could not append neutral charges for atom: %s:%s to atom_data' % (atom[0],atom[1]) )
+            #print ('Could not append neutral charges for atom: %s:%s to atom_data' % (atom[0],atom[1]) )
         try:
             atom.append(float(oxidized_class_charge_dict[name_type_dict[atom[0]]]))
         except:
             pass
-            print ('Could not append oxidized charges for atom: %s:%s to atom_data' % (atom[0],atom[1]) )
+            #print ('Could not append oxidized charges for atom: %s:%s to atom_data' % (atom[0],atom[1]) )
     return (atom_data)
       
 def store_formatted_dict(topology_atoms, forcefield_templates, neutral_xml_file, oxidized_xml_file):
