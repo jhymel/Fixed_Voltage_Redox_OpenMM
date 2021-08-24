@@ -1,8 +1,6 @@
 from sys import *
 #******** import parent class
 from FV_shared.lib.MM_classes_FV import *
-#******** import functions for making molecules rigid in simulations
-from rigid import *
 #******** import thermodynamic integration classes/methods
 from thermodynamic_integration import *
 
@@ -23,22 +21,6 @@ class MM_FixedVoltage_Redox(MM_FixedVoltage):
         super().__init__( pdb_list , residue_xml_list , ff_xml_list , **kwargs )
 
         # reading inputs from **kwargs
-        if 'rigid_body' in kwargs :
-           self.rigid_body = kwargs['rigid_body']
-        else:
-           self.rigid_body = None
-
-        # create rigid bodies
-        if self.rigid_body is not None:
-            bodies = []
-            for res in self.modeller.topology.residues():
-                redox = []
-                for atom in res._atoms:
-                    if atom.name[0:2] in self.rigid_body:
-                        redox.append( atom.index )
-                if redox != []:
-                    bodies.append(redox)
-            createRigidBodies(self.system, self.pdb.positions, bodies)
 
     # only restrains atoms in the z-direction but can be easily generalized to x and y
     def set_position_constraint( self, atom_name, kz, z0 ):
@@ -66,7 +48,6 @@ class MM_FixedVoltage_Redox(MM_FixedVoltage):
     #***************************************
     def generate_exclusions(self, water_name = 'HOH', flag_hybrid_water_model = False ,  flag_SAPT_FF_exclusions = True , **kwargs ):
 
-        #super().generate_exclusions(water_name = 'HOH', flag_hybrid_water_model = False ,  flag_SAPT_FF_exclusions = True , **kwargs )
         
         # if Cathode/Anode are present, setup exclusions ...
         if self.Cathode is not None and self.Anode is not None :
@@ -75,7 +56,6 @@ class MM_FixedVoltage_Redox(MM_FixedVoltage):
                 surfactant_exclude_index = kwargs['surfactant_exclude_index']
                 self.Cathode.electrode_extra_exclusions.append( surfactant_exclude_index )
 
-        #    super().generate_exclusions(water_name = 'HOH', flag_hybrid_water_model = False ,  flag_SAPT_FF_exclusions = True , **kwargs )
 
         if 'surfactant_zero_charge_index' in kwargs :
             surfactant_zero_charge_index = kwargs['surfactant_zero_charge_index']
@@ -94,7 +74,7 @@ class MM_FixedVoltage_Redox(MM_FixedVoltage):
                 print ('charge_sum', charge_sum)
                 sys.exit()
 
-        super().generate_exclusions(water_name = 'HOH', flag_hybrid_water_model = False ,  flag_SAPT_FF_exclusions = True) # , **kwargs )
+        super().generate_exclusions(water_name = water_name, flag_hybrid_water_model = flag_hybrid_water_model ,  flag_SAPT_FF_exclusions = flag_SAPT_FF_exclusions) # , **kwargs )
 
         # now reinitialize to make sure changes are stored in context
         state = self.simmd.context.getState(getEnergy=False,getForces=False,getVelocities=False,getPositions=True)
