@@ -1,0 +1,101 @@
+<ForceField>
+  <!-- README                                                                                                            -->
+  <!-- tip4p water, cgolp, Lipid17 force field (AMBER14), AMBER99 force field, and all-atoms metallocene force field     -->
+  <!--                                                                                                                   -->
+  <!-- AMBER99 parameters found at openmm/wrappers/python/simtk/openmm/app/data/amber99sbnmr.xml                         -->
+  <!-- Lipid17 parameters found at openmm/wrappers/python/simtk/openmm/app/data/amber14/lipid17.xml                      -->
+  <!-- tip4p   parameters found at openmm/wrappers/python/simtk/openmm/app/data/amber14/tip4pew.xml                      -->
+  <!--                                                                                                                   -->
+  <!-- From where parameters for the system are pulled                                                                   -->
+  <!--                   Cr  <===>  LJ params: metallocene ff; bonds, angles, dihedrals: AMBER99 class="CA"              -->
+  <!--                   Hr  <===>  LJ params: metallocene ff; bonds, angles, dihedrals: none (rigid)                    -->
+  <!--                   FE  <===>  LJ params: metallocene ff; bonds, angles, dihedrals: none (rigid)                    -->
+  <!--                   CT  <===>  LJ params: Lipid17 ff;     bonds, angles, dihedrals: Lipid17 name="C36"  class="cD"  -->
+  <!--                   HT  <===>  LJ params: Lipid17 ff;     bonds, angles, dihedrals: Lipid17 name="H6X"  class="hL"  -->
+  <!--                   Cm  <===>  LJ params: Lipid17 ff;     bonds, angles, dihedrals: Lipid17 name="C316" class="cD"  -->
+  <!--                   S   <===>  LJ params: AMBER99 ff;     bonds, angles, dihedrals: AMBER99 name="77"   class="SH"  -->
+  <!--                   HS  <===>  LJ params: AMBER99 ff;     bonds, angles, dihedrals: AMBER99 name="78"   class="HS"  -->
+  <!--            tip4pew-O  <===>  LJ params: tip4pew ff;     bonds, angles, dihedrals: AMBER99 name="78"   class="HS"  -->
+  <!--            tip4pew-H  <===>  LJ params: tip4pew ff;     bonds, angles, dihedrals: AMBER99 name="78"   class="HS"  -->
+  <!--            tip4pew-M  <===>  LJ params: tip4pew ff;     bonds, angles, dihedrals: AMBER99 name="78"   class="HS"  -->
+  <!-- tip4pew_standard-Na+  <===>  LJ params: tip4pew ff;     bonds, angles, dihedrals: AMBER99 name="78"   class="HS"  -->
+  <!-- tip4pew_standard-Cl-  <===>  LJ params: tip4pew ff;     bonds, angles, dihedrals: AMBER99 name="78"   class="HS"  -->
+  <!--                                                                                                                   -->
+  <!-- Ferrocene charges defined in all-atom metallocenes paper are not used, instead,                                   -->
+  <!-- charges are fit using B3LYP/lanl2dz and Jesse's charge fitting scheme (gdma).                                     -->
+  <!-- Did this because all-atom metallocene paper on had charges for the neutral system.                                -->
+		  
+ <AtomTypes>
+  <Type name="tip4pew-O"            class="tip4pew-O"            element="O"  mass="15.59943" />
+  <Type name="tip4pew-H"            class="tip4pew-H"            element="H"  mass="1.007947" />
+  <Type name="tip4pew-M"            class="tip4pew-M"                         mass="0"        />
+  <Type name="tip4pew_standard-Na+" class="tip4pew_standard-Na+" element="Na" mass="22.99"    />
+  <Type name="tip4pew_standard-Cl-" class="tip4pew_standard-Cl-" element="Cl" mass="35.45"    />
+ </AtomTypes>
+ <Residues>
+  <Residue name="HOH">
+   <Atom name="O"  type="tip4pew-O" charge="0"        />
+   <Atom name="H1" type="tip4pew-H" charge="0.52422"  />
+   <Atom name="H2" type="tip4pew-H" charge="0.52422"  />
+   <Atom name="M"  type="tip4pew-M" charge="-1.04844" />
+   <VirtualSite type="average3" siteName="M" atomName1="O" atomName2="H1" atomName3="H2" weight1="0.786646558" weight2="0.106676721" weight3="0.106676721"/>
+   <Bond atomName1="O" atomName2="H1"/>
+   <Bond atomName1="O" atomName2="H2"/>
+  </Residue>
+  <Residue name="SOD">
+   <Atom name="SOD" type="tip4pew_standard-Na+"/>
+  </Residue>
+  <Residue name="CLA">
+   <Atom name="CLA" type="tip4pew_standard-Cl-"/>
+  </Residue>
+ </Residues>
+ <HarmonicBondForce>
+  <Bond k="462750.4"  length="0.09572" type1="tip4pew-O"  type2="tip4pew-H" />
+  <Bond k="282252.64" length="0.1092" class1="CT"        class2="HT"        />
+  <Bond k="200832.0"  length="0.1520" class1="CT"        class2="CT"        />
+  <Bond k="265265.6"  length="0.151"  class1="CT"        class2="Cr"        />
+  <Bond k="229283.2"  length="0.1336" class1="S"         class2="HS"        />
+  <Bond k="198321.6"  length="0.181"  class1="S"         class2="CT"        />
+ </HarmonicBondForce>
+ <HarmonicAngleForce>
+  <Angle k="836.8"   angle="1.82421813418"  type1="tip4pew-H"  type2="tip4pew-O"  type3="tip4pew-H" />
+  <Angle k="585.76"  angle="2.09439510239" class1="Cr"        class2="Cr"        class3="CT"        />
+  <Angle k="527.184" angle="1.98967534727" class1="CT"        class2="CT"        class3="Cr"        />
+  <Angle k="418.4"   angle="1.91113553093" class1="Cr"        class2="CT"        class3="HT"        />
+  <Angle k="359.824" angle="1.67551608191" class1="CT"        class2="S"         class3="HS"        />
+  <Angle k="418.4"   angle="1.89542756767" class1="CT"        class2="CT"        class3="S"         />
+  <Angle k="528.941" angle="1.98269403027" class1="CT"        class2="CT"        class3="CT"        />
+  <Angle k="298.738" angle="1.93679187094" class1="CT"        class2="CT"        class3="HT"        />
+  <Angle k="280.328" angle="1.87361095202" class1="HT"        class2="CT"        class3="HT"        />
+  <Angle k="418.4"   angle="1.91113553093" class1="HT"        class2="CT"        class3="S"         />
+ </HarmonicAngleForce>
+ <PeriodicTorsionForce>
+  <Proper k1="-0.30334" k2="0.0435136" k3="0.347272" k4="0.830524" k5="0.688268" periodicity1="1" periodicity2="2" periodicity3="3" periodicity4="4" periodicity5="5" phase1="3.141592653589793" phase2="3.141592653589793" phase3="0.0" phase4="0.0" phase5="0.0" class1="CT" class2="CT" class3="CT" class4="CT" />
+  <Proper k1="0.6276"  periodicity1="3" phase1="0.0" class1="HT" class2="CT" class3="CT" class4="HT"   />
+  <Proper k1="0.66944" periodicity1="3" phase1="0.0" class1="CT" class2="CT" class3="CT" class4="HT"   />
+  <Proper k1="1.046"   periodicity1="3" phase1="0.0" class1=""   class2="CT" class3="S"  class4=""     />
+  <Proper k1="0.0"     periodicity1="2" phase1="0.0" class1=""   class2="Cr" class3="CT" class4=""     /> 
+ </PeriodicTorsionForce>
+ <NonbondedForce coulomb14scale="0.833333" lj14scale="0.5">
+  <Atom class="CT"                    charge="-0.026"    sigma="0.33997"  epsilon="0.45773"    />
+  <Atom  type="Cm"                    charge="-0.039"    sigma="0.33997"  epsilon="0.45773"    />
+  <Atom class="HT"                    charge="0.013"     sigma="0.26014"  epsilon="0.04184"    />
+  <Atom class="S"                     charge="-0.3119"   sigma="0.35636"  epsilon="1.046"      />
+  <Atom class="HS"                    charge="0.3119"    sigma="0.10691"  epsilon="0.06569"    />	
+  <Atom class="FE"                    charge="1.033"     sigma="0.311"    epsilon="2.016"      />
+  <Atom class="Cr"                    charge="-0.177"    sigma="0.355"    epsilon="0.293"      />
+  <Atom class="Hr"                    charge="0.193"     sigma="0.126"    epsilon="0.242"      />
+  <Atom class="tip4pew-O"             charge="0.0"       sigma="0.31644"  epsilon="0.680946"   />
+  <Atom class="tip4pew-H"             charge="0.52422"   sigma="1.00000"  epsilon="0.00000"    />
+  <Atom class="tip4pew-M"             charge="-1.0484"   sigma="1.00000"  epsilon="0.00000"    />
+  <Atom class="tip4pew_standard-Na+"  charge="1.0"       sigma="0.21845"  epsilon="0.7047425"  />
+  <Atom class="tip4pew_standard-Cl-"  charge="-1.0"      sigma="0.49178"  epsilon="0.048792"   />
+  <Atom class="gAu"                   charge="0.0"       sigma="0.38000"  epsilon="0.48000"    />
+  <Atom class="gAuc"                  charge="0.0"       sigma="1.00000"  epsilon="0.00000"    />
+  <Atom class="gAua"                  charge="0.0"       sigma="1.00000"  epsilon="0.00000"    />
+  <Atom class="HAua"                  charge="0.0"       sigma="1.00000"  epsilon="0.00000"    />
+  <Atom class="HAuc"                  charge="0.0"       sigma="1.00000"  epsilon="0.00000"    />
+  <NBFixPair type1="gAu" type2="tip4pew-O"               sigma="0.25500"  epsilon="1.07143"    />
+  <NBFixPair type1="gAu" type2="tip4pew-H"               sigma="0.05500"  epsilon="0.17143"    />
+ </NonbondedForce>
+</ForceField>
