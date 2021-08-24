@@ -1,0 +1,62 @@
+<ForceField>
+ <AtomTypes>
+  <Type name="FE" class="FE" element="Fe" mass="55.84"/>
+  <Type name="Cr" class="Cr" element="C" mass="12.0"/>
+  <Type name="Hr" class="Hr" element="H" mass="1.0"/>
+ </AtomTypes> 
+ <Residues>
+  <Residue name="Fc">
+   <Bond from="0" to="1"/>
+   <Bond from="0" to="2"/>
+   <Bond from="0" to="3"/>
+   <Bond from="0" to="4"/>
+   <Bond from="0" to="5"/>
+   <Bond from="0" to="6"/>
+   <Bond from="0" to="7"/>
+   <Bond from="0" to="8"/>
+   <Bond from="0" to="9"/>
+   <Bond from="0" to="10"/>
+   <Bond from="1" to="11"/>
+   <Bond from="2" to="12"/>
+   <Bond from="3" to="13"/>
+   <Bond from="4" to="14"/>
+   <Bond from="5" to="15"/>
+   <Bond from="6" to="16"/>
+   <Bond from="7" to="17"/>
+   <Bond from="8" to="18"/>
+   <Bond from="9" to="19"/>
+   <Bond from="10" to="20"/>
+   <Bond from="1" to="2"/>
+   <Bond from="2" to="3"/>
+   <Bond from="3" to="4"/>
+   <Bond from="4" to="5"/>
+   <Bond from="5" to="1"/>
+   <Bond from="6" to="7"/>
+   <Bond from="7" to="8"/>
+   <Bond from="8" to="9"/>
+   <Bond from="9" to="10"/>
+   <Bond from="10" to="6"/>
+   <Atom name="FE" type="FE"/>
+   <Atom name="Cr1" type="Cr"/>
+   <Atom name="Cr2" type="Cr"/>
+   <Atom name="Cr3" type="Cr"/>
+   <Atom name="Cr4" type="Cr"/>
+   <Atom name="Cr5" type="Cr"/>
+   <Atom name="Cr6" type="Cr"/>
+   <Atom name="Cr7" type="Cr"/>
+   <Atom name="Cr8" type="Cr"/>
+   <Atom name="Cr9" type="Cr"/>
+   <Atom name="Cr10" type="Cr"/>
+   <Atom name="Hr1" type="Hr"/>
+   <Atom name="Hr2" type="Hr"/>
+   <Atom name="Hr3" type="Hr"/>
+   <Atom name="Hr4" type="Hr"/>
+   <Atom name="Hr5" type="Hr"/>
+   <Atom name="Hr6" type="Hr"/>
+   <Atom name="Hr7" type="Hr"/>
+   <Atom name="Hr8" type="Hr"/>
+   <Atom name="Hr9" type="Hr"/>
+   <Atom name="Hr10" type="Hr"/>
+  </Residue>
+ </Residues>
+</ForceField>
